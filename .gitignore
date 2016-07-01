@@ -1,0 +1,19 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+### SASS ###
+
+www/css/ionic.app.css
+www/css/ionic.app.min.css
+
+### Ionic ###
+
+node_modules/
+platforms/
+plugins/
+
+### WebStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+.idea/

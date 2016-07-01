@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- Ionicitude -->
+    <script src="lib/ionicitude/dist/ionicitude.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+
+  </head>
+  <body ng-app="demo" ng-controller="MainCtrl">
+
+    <ion-pane>
+      <ion-header-bar class="bar-energized">
+        <h1 class="title">Ionicitude Demo App</h1>
+      </ion-header-bar>
+      <ion-content>
+        <div class="list">
+
+          <div class="item item-divider">Client Recognition</div>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('1_ClientRecognition_1_ImageOnTarget')">
+            1.1 Image on Target<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('1_ClientRecognition_2_MultipleTargets')">
+            1.2 Multiple Targets<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('1_ClientRecognition_3_ExtendedTracking')">
+            1.3 Extended Tracking<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('1_ClientRecognition_4_Interactivity')">
+            1.4 Interactivity<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('1_ClientRecognition_5_HtmlDrawable')">
+            1.5 Html Drawable<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('1_ClientRecognition_6_Bonus-Sparkles')">
+            1.6 Bonus: Sparkles<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('1_ClientRecognition_7_Bonus-DistanceToTarget')">
+            1.7 Bonus: Distance To Target<i class="icon ion-ios-arrow-right"></i></a>
+
+          <div class="item item-divider">Cloud Recognition</div>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('2_CloudRecognition_1_BasicRecognitionOn-Click')">
+            2.1 Basic Recognition On: Click<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('2_CloudRecognition_2_ContinuousRecognitionVsOn-Click')">
+            2.2 Continuous Recognition Vs On: Click<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('2_CloudRecognition_3_UsingMetainformationInTheResponse')">
+            2.3 Using Response Metainformation<i class="icon ion-ios-arrow-right"></i></a>
+
+          <div class="item item-divider">3D Models</div>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('3_3dModels_1_3dModelOnTarget')">
+            3.1 3D Model on Target<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('3_3dModels_2_AppearingAnimation')">
+            3.2 Appearing Animation<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('3_3dModels_3_Interactivity')">
+            3.3 Interactivity<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('3_3dModels_4_SnapToScreen')">
+            3.4 Snap To Screen<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('3_3dModels_5_AnimatedModelParts')">
+            3.5 Animated Model Parts<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('3_3dModels_6_3dModelAtGeoLocation')">
+            3.6 3d Model At Geo Location<i class="icon ion-ios-arrow-right"></i></a>
+
+          <div class="item item-divider">Point of Interest</div>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('4_PointOfInterest_1_PoiAtLocation')">
+            4.1 Poi At Location<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('4_PointOfInterest_2_PoiWithLabel')">
+            4.2 Poi With Label<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('4_PointOfInterest_3_MultiplePois')">
+            4.3 Multiple Pois<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('4_PointOfInterest_4_SelectingPois')">
+            4.4 Selecting Pois<i class="icon ion-ios-arrow-right"></i></a>
+
+          <div class="item item-divider">Obtain Poi Data</div>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('5_ObtainPoiData_1_FromApplicationModel')">
+            5.1 From Application Model<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('5_ObtainPoiData_2_FromLocalResource')">
+            5.2 From Local Resource<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('5_ObtainPoiData_3_FromWebservice')">
+            5.3 From Webservice<i class="icon ion-ios-arrow-right"></i></a>
+
+          <div class="item item-divider">Browsing Pois</div>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('6_BrowsingPois_1_PresentingDetails')">
+            6.1 Presenting Details<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('6_BrowsingPois_2_AddingRadar')">
+            6.2 Adding Radar<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('6_BrowsingPois_3_LimitingRange')">
+            6.3 Limiting Range<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('6_BrowsingPois_4_ReloadingContent')">
+            6.4 Reloading Content<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('6_BrowsingPois_6_Bonus-CaptureScreen')">
+            6.5 Bonus: Capture Screen<i class="icon ion-ios-arrow-right"></i></a>
+
+          <div class="item item-divider">Video</div>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('7_Video_1_SimpleVideo')">
+            7.1 Simple Video<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('7_Video_2_PlaybackStates')">
+            7.2 Playback States<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('7_Video_3_SnappingVideo')">
+            7.3 Snapping Video<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('7_Video_4_Bonus-TransparentVideo')">
+            7.4 Bonus: Transparent Video<i class="icon ion-ios-arrow-right"></i></a>
+
+          <div class="item item-divider">Hardware Control</div>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('8_HardwareControl_1_FrontCamera')">
+            8.1 Front Camera<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('8_HardwareControl_2_CameraSwitching')">
+            8.2 Camera Switching<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('8_HardwareControl_3_AdvancedFeatures')">
+            8.3 Camera Control<i class="icon ion-ios-arrow-right"></i></a>
+
+          <div class="item item-divider">Demos</div>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('x_Demo_1_2dTrackingAndGeo')">
+            9.1 2D Tracking And Geo<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('x_Demo_2_SolarSystem(Geo)')">
+            9.2 Solar System (Geo)<i class="icon ion-ios-arrow-right"></i></a>
+          <a class="item item-icon-right" href="#" ng-click="launchAR('x_Demo_3_SolarSystem(2dTracking)')">
+            9.3 Solar System (2D Tracking)<i class="icon ion-ios-arrow-right"></i></a>
+
+        </div>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

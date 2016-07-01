@@ -1,0 +1,61 @@
+{
+  "name": "ionicitude",
+  "authors": [
+    "Mathias Oberson <obersonmathias@gmail.com>"
+  ],
+  "description": "AngularJS module for using the Wikitude cordova plugin in an Ionic project.",
+  "main": "./dist/ionic-wikitude-module.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "Angular",
+    "angularjs",
+    "AngularJS",
+    "module",
+    "ionic",
+    "Ionic",
+    "wikitude",
+    "Wikitude",
+    "ar",
+    "augmented",
+    "reality",
+    "plugin",
+    "cordova",
+    "Cordova"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tazaf/ionicitude",
+  "ignore": [
+    "node_modules",
+    "src",
+    "tests",
+    ".bowerrc",
+    ".gitignore",
+    "gulpfile.js",
+    "LICENSE",
+    "logo.png",
+    "package.json",
+    "README.md",
+    "docs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Tazaf/ionic-wikitude-module.git"
+  },
+  "dependencies": {
+    "angular": "~1.4.3"
+  },
+  "version": "0.2.0-alpha",
+  "_release": "0.2.0-alpha",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.0-alpha",
+    "commit": "fd7cd9c0aa1c94b50409159265734a9c8eb0b82f"
+  },
+  "_source": "git://github.com/tazaf/ionicitude.git",
+  "_target": "^0.2.0-alpha",
+  "_originalSource": "tazaf/ionicitude",
+  "_direct": true
+}
