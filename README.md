@@ -51,6 +51,7 @@ To install and launch this application, you need to do the following:
 
 # Ionicitude Usage
 The Ionicitude package is used to manage the Wikitude Cordova Plugin in this Ionic app.
+
 The code demonstrating this usage can be found in the [`www/js/app.js`](https://github.com/Tazaf/IonicitudeDemoApp/blob/master/www/js/app.js) file.
 
 # App Usage
@@ -65,15 +66,19 @@ The code for each AR World can be found under the [`www/wikitude-worlds`](https:
 ## Access World by URL
 
 The AR Cordova Sample App allows you to launch an AR World that is deploy on a distant server and accessible via an URL.
+
 This feature is **not** present in the Ionicitude Demo App because it's not supported by the current version (0.2.1-alpha) of Ionicitude.
 
 ## World 8.2 Camera Switching
 
-In the AR Cordova Sample App, this AR World uses the front camera (if available) when launching. This is not the case in the Ionicitude Demo App, because the current version (0.2.1-alpha) of Ionicitude doesn't support individual AR World settings.
+In the AR Cordova Sample App, this AR World uses the front camera (if available) when launching.
+
+This is not the case in the Ionicitude Demo App, because the current version (0.2.1-alpha) of Ionicitude doesn't support individual AR World settings.
 
 # Contribution and Issues
 
 Any contribution or enhancement to this Ionicitude Demo App are welcomed and will be appreciated.
+
 If you experience bugs or strange behaviors will testing this app, please do not hesitate to raise an issue about it.
 
 **In both case, please, use the GitHub tools of this repository (merge request and issues) rather than sending a personnal email. This way, it will be easier to manage and keep track of what's happening. Thanks !**
@@ -84,4 +89,6 @@ If you experience bugs or strange behaviors will testing this app, please do not
 - [Ionicitude documentation](https://github.com/Tazaf/ionicitude)
 
 # License
-This demo application is licensed under both the MIT Licence (as requested by [Ionicitude](https://github.com/Tazaf/ionicitude#license)) and the Apache v2.0 License (as requested by the [Augmented Reality Cordova Sample App](https://github.com/Wikitude/wikitude-cordova-plugin-samples#license)). See LICENCE-MIT.txt and LICENCE-APACHE.txt, respectivly, for more information.
+This demo application is licensed under both the MIT Licence (as requested by [Ionicitude](https://github.com/Tazaf/ionicitude#license)) and the Apache v2.0 License (as requested by the [Augmented Reality Cordova Sample App](https://github.com/Wikitude/wikitude-cordova-plugin-samples#license)).
+
+See [LICENCE-MIT.txt](https://github.com/Tazaf/IonicitudeDemoApp/blob/master/LICENSE-MIT.txt) and [LICENCE-APACHE.txt](https://github.com/Tazaf/IonicitudeDemoApp/blob/master/LICENSE-APACHE.txt), respectivly, for more information.
