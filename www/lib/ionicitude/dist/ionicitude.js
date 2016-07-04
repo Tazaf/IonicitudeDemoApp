@@ -148,22 +148,21 @@ function Ionicitude($q) {
 	}
 
 	/**
-	 * Allows the user to take a screenshot with the app, while being in an AR view.
-	 * This is just a wrapper aroune the Wikitude Plugin method, that uses promises instead of callback.
-	 * See Wikitude documentation for more information: http://www.wikitude.com/external/doc/documentation/latest/phonegap/referencephonegap.html#capturescreen.
-	 * @param withUI A boolean indicating whether the screenshot should take the UI into account
-	 * @param fileName If given, the screenshot will be saved in the device storage. If not, the screenshot will be saved in the device picture galery
-	 * @returns {Promise} A promise of a screen captured.
+	 * TODO : Commenter la méthode
+	 * @param withUI
+	 * @param fileName
+	 * @returns {Function}
 	 */
 	function captureScreen(withUI, fileName) {
+    console.log('withUi', withUI, 'fileName', fileName);
 		if (typeof withUI !== 'boolean') throw new TypeError('Ionicitude - captureScreen() expects first parameter to be of type \'boolean\', \'' + typeof withUI + '\' given.');
-		if (fileName !== null && typeof fileName !== 'string') throw new TypeError('Ionicitude - captureScreen() expects second parameter to be \'null\' or of type \'string\', \'' + typeof fileName + '\' given.');
+		if (typeof fileName !== 'string') throw new TypeError('Ionicitude - captureScreen() expects second parameter to be \'null\' or of type \'string\', \'' + typeof fileName + '\' given.');
 		var q = $q.defer();
-		plugin.captureScreen(function (success) {
+		plugin.captureScreen(withUI, fileName, function (success) {
 			q.resolve(success);
 		}, function (error) {
 			q.reject(error);
-		}, withUI, fileName);
+		});
 		return q.promise;
 	}
 
