@@ -23,20 +23,31 @@ All the AR Worlds contained in the app (in the [`www/wikitude-worlds`](https://g
 
 # Installation
 To install and launch this application, you need to do the following:
+
 1. [Install](http://ionicframework.com/getting-started/) the Ionic framework (if it's not already on your computer)
 2. Clone this repository on your computer
 3. Restore the state of the Ionic project _(this means basically installing the plugins, notably the Wikitude Cordova Plugin)_ with:
-```ionic state restore```
+
+  `ionic state restore`
+
 4. Follow the [Wikitude License Key](https://github.com/Tazaf/ionicitude#wikitude-licence-key) part of the Ionicitude documentation to obtain and user your personnal Trial Key for the Wikitude Cordova Plugin.
 5. Install whichever platform you want to build and install the app on:
-`ionic platform add ios`
-or
-`ionic platform add android@5.0.0` _(**This is important** ! See [here](https://github.com/Tazaf/ionicitude#android-platform-version-500) for more details)_
+  
+  `ionic platform add ios`
+  
+  or
+  
+  `ionic platform add android@5.0.0` _(**This is important** ! See [here](https://github.com/Tazaf/ionicitude#android-platform-version-500) for more details)_
+
 6. Run the app on the platform(s) you added:
-`ionic run ios`
-or
-`ionic run android`
-**Plase note that this step requires that you have a working environment for either of these platforms. If this is note the case, please refer to [this iOS Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html) or [this Android Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html) from the Cordova website**
+ 
+  `ionic run ios`
+
+  or
+
+  `ionic run android`
+  
+  **Plase note that this step requires that you have a working environment for either of these platforms. If this is note the case, please refer to [this iOS Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html) or [this Android Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html) from the Cordova website**
 
 # Ionicitude Usage
 The Ionicitude package is used to manage the Wikitude Cordova Plugin in this Ionic app.
