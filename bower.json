@@ -1,9 +1,9 @@
 {
   "name": "HelloIonic",
   "private": "true",
-  "devDependencies": {
+  "dependencies": {
     "ionic": "driftyco/ionic-bower#1.3.1",
-    "ionicitude": "tazaf/ionicitude#^0.2.0-alpha"
+    "ionicitude": "tazaf/ionicitude#^0.2.1-alpha"
   },
   "resolutions": {
     "angular": "1.5.3"
