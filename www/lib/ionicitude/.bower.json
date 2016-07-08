@@ -47,15 +47,14 @@
   "dependencies": {
     "angular": "~1.4.3"
   },
-  "version": "0.2.0-alpha",
-  "_release": "0.2.0-alpha",
+  "version": "0.2.1-alpha",
+  "_release": "0.2.1-alpha",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.0-alpha",
-    "commit": "fd7cd9c0aa1c94b50409159265734a9c8eb0b82f"
+    "tag": "v0.2.1-alpha",
+    "commit": "4571b2b7650d63f16caa3367c5939bf8a335e74a"
   },
   "_source": "git://github.com/tazaf/ionicitude.git",
   "_target": "^0.2.0-alpha",
-  "_originalSource": "tazaf/ionicitude",
-  "_direct": true
+  "_originalSource": "tazaf/ionicitude"
 }
