@@ -47,7 +47,7 @@ To install and launch this application, you need to do the following:
 
   `ionic run android`
   
-  **Plase note that this step requires that you have a working environment for either of these platforms. If this is note the case, please refer to [this iOS Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html) or [this Android Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html) from the Cordova website**
+  **Plase note that this step requires that you have a working environment for either of these platforms. If this is not the case, please refer to [this iOS Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html) or [this Android Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html) from the Cordova website.**
 
 # Ionicitude Usage
 The Ionicitude package is used to manage the Wikitude Cordova Plugin in this Ionic app.
@@ -79,7 +79,7 @@ This is not the case in the Ionicitude Demo App, because the current version (0.
 
 Any contribution or enhancement to this Ionicitude Demo App are welcomed and will be appreciated.
 
-If you experience bugs or strange behaviors will testing this app, please do not hesitate to raise an issue about it.
+If you experience bugs or strange behaviors while testing this app, please do not hesitate to raise an issue about it.
 
 **In both case, please, use the GitHub tools of this repository (merge request and issues) rather than sending a personnal email. This way, it will be easier to manage and keep track of what's happening. Thanks !**
 
