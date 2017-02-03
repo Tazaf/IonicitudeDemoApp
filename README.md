@@ -33,14 +33,14 @@ To install and launch this application, you need to do the following:
 
   `ionic state restore`
 
-4. Follow the [Wikitude License Key](https://github.com/Tazaf/ionicitude#wikitude-licence-key) part of the Ionicitude documentation to obtain and user your personnal Trial Key for the Wikitude Cordova Plugin.
+4. Follow the [Wikitude License Key](https://github.com/Tazaf/ionicitude/wiki/Installing-the-Wikitude-plugin#wikitude-licence-key) part of the Ionicitude documentation to obtain and use your personnal Trial Key for the Wikitude Cordova Plugin.
 5. Install whichever platform you want to build and install the app on:
   
   `ionic platform add ios`
   
   or
   
-  `ionic platform add android@5.0.0` _(**This is important** ! See [here](https://github.com/Tazaf/ionicitude#android-platform-version-500) for more details)_
+  `ionic platform add android@5.0.0` _(**This is important** ! See [here](https://github.com/Tazaf/ionicitude/wiki/Installing-the-Wikitude-plugin#android-platform-version-500) for more details)_
 
 6. Run the app on the platform(s) you added:
  
@@ -58,7 +58,7 @@ The Ionicitude package is used to manage the Wikitude Cordova Plugin in this Ion
 The code demonstrating this usage can be found in the [`www/js/app.js`](https://github.com/Tazaf/IonicitudeDemoApp/blob/master/www/js/app.js) file.
 
 # App Usage
-The app is fairly easy to use. The main screen shows you a list of sample AR World demonstrating what you can achieve with the Wikitude Cordova App. Simply click on one of these AR World to see it in action.
+The app is fairly easy to use. The main screen shows you a list of sample AR Worlds demonstrating what you can achieve with the Wikitude Cordova App. Simply click on one of these AR World to see it in action.
 
 **Some of these AR World request you to scan a particular photo or image. They can be found on the project folder: [www/wikitude-worlds/target_images_examples.pdf](https://github.com/Tazaf/IonicitudeDemoApp/blob/master/www/wikitude-worlds/target_images_examples.pdf)**
 
