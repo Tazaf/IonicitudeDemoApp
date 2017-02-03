@@ -19,7 +19,7 @@
 # Introduction
 This repository contains a demo application for using the [Wikitude Cordova Plugin](http://www.wikitude.com/developer/documentation/phonegap) in an [Ionic](http://ionicframework.com/) application with the [Ionicitude](https://github.com/Tazaf/ionicitude) package.
 
-All the AR Worlds contained in the app (in the [`www/wikitude-worlds`](https://github.com/Tazaf/IonicitudeDemoApp/tree/master/www/wikitude-worlds) folder) are the same as the ones in the [Augmented Reality Cordova Sample App](https://github.com/Wikitude/wikitude-cordova-plugin-samples), provided by Wikitude, except some minor changes in the [6_BrowsingPois_6_Bonus-CaptureScreen](https://github.com/Tazaf/IonicitudeDemoApp/tree/master/www/wikitude-worlds/6_BrowsingPois_6_Bonus-CaptureScreen) AR World, to comply with Ionicitude specs.
+**All the AR Worlds contained in the app (in the [`www/wikitude-worlds`](https://github.com/Tazaf/IonicitudeDemoApp/tree/master/www/wikitude-worlds) folder) are the same as the ones in the [Augmented Reality Cordova Sample App](https://github.com/Wikitude/wikitude-cordova-plugin-samples), provided by Wikitude, except some minor changes in the [6_BrowsingPois_6_Bonus-CaptureScreen](https://github.com/Tazaf/IonicitudeDemoApp/tree/master/www/wikitude-worlds/6_BrowsingPois_6_Bonus-CaptureScreen) AR World, to comply with Ionicitude specs.**
 
 # Installation
 To install and launch this application, you need to do the following:
