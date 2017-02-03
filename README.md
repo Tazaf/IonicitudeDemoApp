@@ -58,23 +58,23 @@ The Ionicitude package is used to manage the Wikitude Cordova Plugin in this Ion
 The code demonstrating this usage can be found in the [`www/js/app.js`](https://github.com/Tazaf/IonicitudeDemoApp/blob/master/www/js/app.js) file.
 
 # App Usage
-The app is fairly easy to use. The main screen shows you a list of sample AR Worlds demonstrating what you can achieve with the Wikitude Cordova App. Simply click on one of these AR World to see it in action.
+The app is fairly easy to use. The main screen shows you a list of sample AR Worlds demonstrating what you can achieve with the Wikitude Cordova plugin. Simply click on one of these AR World to see it in action.
 
 **Some of these AR World request you to scan a particular photo or image. They can be found on the project folder: [www/wikitude-worlds/target_images_examples.pdf](https://github.com/Tazaf/IonicitudeDemoApp/blob/master/www/wikitude-worlds/target_images_examples.pdf)**
 
 The code for each AR World can be found under the [`www/wikitude-worlds`](https://github.com/Tazaf/IonicitudeDemoApp/blob/master/www/wikitude-worlds/) folder.
 
-# Differences with the AR Cordova Sample App
+# Differences with the [Wikitude Cordova Sample App](https://github.com/Tazaf/WikitudeCordovaDemoApp)
 
 ## Access World by URL
 
-The AR Cordova Sample App allows you to launch an AR World that is deploy on a distant server and accessible via an URL.
+The Wikitude Cordova Sample App allows you to launch an AR World that is deploy on a distant server and accessible via an URL.
 
 This feature is **not** present in the Ionicitude Demo App because it's not supported by the current version (0.2.1-alpha) of Ionicitude.
 
 ## World 8.2 Camera Switching
 
-In the AR Cordova Sample App, this AR World uses the front camera (if available) when launching.
+In the Wikitude Cordova Sample App, this AR World uses the front camera (if available) when launching.
 
 This is not the case in the Ionicitude Demo App, because the current version (0.2.1-alpha) of Ionicitude doesn't support individual AR World settings.
 
